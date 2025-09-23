@@ -69,12 +69,9 @@ The current `.github/workflows/ci.yml` includes:
 ### Training Exercises
 
 Students can extend the pipeline by adding:
-- Code coverage with JaCoCo
-- OWASP dependency check
-- SonarQube analysis
-- Multi-environment deployments
 - Slack/email notifications
-- Automated releases
+- Publish container to Github Registry
+- Add secrets / environment variables to the application
 
 ## Known Issues
 
