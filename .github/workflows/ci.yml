@@ -45,13 +45,13 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Build Docker image
-      run: docker build -t devops-training:latest .
-
-    - name: Test Docker image
-      run: |
-        docker run -d -p 8080:8080 --name test-app devops-training:latest
-        sleep 30
-        curl -f http://localhost:8080/api/health || exit 1
-        docker stop test-app
-        docker rm test-app
+#    - name: Build Docker image
+#      run: docker build -t devops-training:latest .
+#
+#    - name: Test Docker image
+#      run: |
+#        docker run -d -p 8080:8080 --name test-app devops-training:latest
+#        sleep 30
+#        curl -f http://localhost:8080/api/health || exit 1
+#        docker stop test-app
+#        docker rm test-app

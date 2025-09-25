@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0ce8cde-e7a4-4774-b857-e358c7ec5952" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/devopstraining/DevopsTrainingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/devopstraining/DevopsTrainingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/devopstraining/controller/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/devopstraining/controller/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/devopstraining/DevopsTrainingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/devopstraining/DevopsTrainingApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
     "JUnit.HelloControllerTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
