@@ -18,7 +18,7 @@ class HelloControllerTest {
     private final MockMvc mockMvc;
 
     @Autowired
-    HelloControllerTest(MockMvc mockMvc) {
+    HelloControllerTest(final MockMvc mockMvc) {
         this.mockMvc = mockMvc;
     }
     @Test
