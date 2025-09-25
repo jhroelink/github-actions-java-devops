@@ -5,6 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DevopsTrainingApplication {
+    // Private constructor to prevent instantiation
+    private DevopsTrainingApplication() {
+        throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
+    }
 
     public static void main(final String[] args) {
         SpringApplication.run(DevopsTrainingApplication.class, args);
