@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DevopsTrainingApplication {
 
-    private static void main(final String[] args) {
+    public static void main(final String[] args) {
         SpringApplication.run(DevopsTrainingApplication.class, args);
     }
 }
